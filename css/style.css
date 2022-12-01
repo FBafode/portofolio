@@ -14,8 +14,8 @@
 .accueil {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: red;
-
+    background-color: #222; 
+    color: aliceblue;
 }
 .voletdroiteHome {
     background-color: black;
@@ -99,6 +99,7 @@
         height: 100%;
         margin: o auto;
         text-align: center;
+        margin-top: 30px;
     }
     .technos {
     display: grid;
@@ -124,6 +125,8 @@ grid-template-columns: 1fr 3fr;
 /* grid-template-columns: 1fr 1fr; */
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+background-color: #222;
+color: aliceblue;
 }
 .gauche_apropos img {
     width: 100%;
@@ -143,7 +146,9 @@ grid-row-gap: 0px;
 .titre_apropos {
     width: 100%;
     height: 84%;
-    border: 1px solid gold;
+    padding-left: 5px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(252, 251, 247);
 }
 
 .parent_experiences {
@@ -153,7 +158,7 @@ grid-template-columns: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 width: 100%;
-height: 80%;
+height: 100%;
 border: 1px solid violet;
 }
 
@@ -197,6 +202,10 @@ grid-row-gap: 10px;
 border-radius: 10px;
 }
 
+/* .droite_apropos .telecharger {
+    position: relative;
+    bottom: 45px;
+} */
 .text_adress {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -236,4 +245,14 @@ footer div a {
     height: 2em;
     /* overflow: visible; */
     vertical-align: -0.125em;
+}
+.formulaire {
+    background-color: #222;
+    background-repeat: repeat-y;
+
+}
+.contact {
+
+    background-color: #222; 
+    color: aliceblue;
 }
