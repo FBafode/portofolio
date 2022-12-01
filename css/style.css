@@ -23,12 +23,9 @@
 }
 .sheader header nav ul li a{
     color: azure;
-  
-
 }
  
 .text_portrait {
-  
     border-top: 1px solid honeydew;
     border-bottom: 1px solid honeydew;
     width: 75%;
@@ -41,8 +38,6 @@
     color: aqua;
 }
 .portrait p {
-    
-   
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: rgb(243, 243, 243);
@@ -76,7 +71,6 @@
     font-size: 25px;
 }
 
-
 .sujet {
     display: flex;
     flex-direction: column-reverse;
@@ -87,16 +81,12 @@
     width: 94%;
     height: 79%;
 } 
-
-
     .images img{
         width: 100%;
         height: 70%;
         overflow: hidden;
     }
-
     .global_experience {
-
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2 1fr);
@@ -105,19 +95,145 @@
     }
     
     .text_technos {
-        
         width: 80%;
         height: 100%;
         margin: o auto;
         text-align: center;
     }
     .technos {
-       display: grid;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px; 
-
-        width: 100%;
+    width: 100%;
     } 
+
+    .themes_metier img {
+        width: 80%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .titre_metier section {
+        text-align: center;
+    }
+.apropos {
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 3fr;
+/* grid-template-columns: 1fr 1fr; */
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.gauche_apropos img {
+    width: 100%;
+
+    border-radius: 10px;
+    /* overflow: hidden; */
+    grid-auto-flow: auto;
+}
+
+.gauche_apropos {
+    border: 1px solid red;
     
+    display: grid;
+    align-items: stretch;
+}
+
+.titre_apropos {
+    width: 100%;
+    height: 84%;
+    border: 1px solid gold;
+}
+
+.parent_experiences {
+ display: grid;
+grid-template-columns: repeat(2, 1fr);
+ grid-template-rows:  1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 100%;
+height: 80%;
+border: 1px solid violet;
+}
+
+.droite_apropos {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 3fr 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.experiences {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.suis_je {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 3fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.metier {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 2fr;
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+}
+
+.parent_themes_metier {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 10px;
+border-radius: 10px;
+}
+
+.text_adress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr;
+    justify-content: start;
+    justify-items: end;
+    align-items: start;
+}
+.text_contact {
+    text-align: center;
+}
+footer {
+    height: 200px;
+
+    background-color: #444;
+    color: #fff;
+    
+    text-align: center;
+    padding-top: 9%;
+    border-radius: 10px;
+}
+footer div a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 2%;
+}
+.formulaire {
+    padding-top: 20px;
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 2em;
+    /* overflow: visible; */
+    vertical-align: -0.125em;
+}
