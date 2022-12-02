@@ -3,7 +3,7 @@
 }
 .container {
     width: 90%;
-    margin: auto;
+    margin:0 auto;
 }
 
 .portrait {
@@ -16,7 +16,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #222; 
-    color: aliceblue;
+    height: 750px;
+
+}
+#contactAccueil {
+   margin-left: 15px;
 }
 .voletdroiteHome {
     background-color: black;
@@ -47,16 +51,25 @@
 
 .sujet section {
     border: 1px solid black;
-    width: 50%;
-    height: 44%;
+    width: 40%;
+    height: 50%;
     border-radius: 50%;
     margin:auto;
     text-align: center;
-    padding-top: 28%;
+    padding: 10%;
     background-color: #41464b;
     color: honeydew;
     font-size: 1.5em;
     font-weight: 30px;
+
+    display: table;
+}
+
+section a{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color:  rgb(243, 243, 243);;
 }
 .portrait p:nth-child(2) {
     text-align: center;
@@ -75,12 +88,12 @@
 .sujet {
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin: 5%;
     width: 94%;
-    height: 79%;
+    height: 78%;
 } 
     .images img{
         width: 100%;
@@ -112,7 +125,7 @@
     } 
 
     .themes_metier img {
-        width: 80%;
+        width: 70%;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -196,7 +209,7 @@ grid-row-gap: 5px;
 justify-content: space-around;
 justify-items: stretch;
 align-items: center;
-margin-left: 10px;
+margin-top: 20px;
 
 }
 
@@ -207,6 +220,7 @@ grid-template-rows: 1fr;
 grid-column-gap: 20px;
 grid-row-gap: 10px;
 border-radius: 10px;
+text-align: center;
 }
 
 /* .droite_apropos .telecharger {
@@ -218,8 +232,8 @@ border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr;
     justify-content: center;
-    justify-items: start;
-    align-items: center;
+    justify-items: center;
+    align-items: start;
     align-content: center;
     border-top: 1px dotted rgb(252, 251, 247);
 }
@@ -227,13 +241,13 @@ border-radius: 10px;
     text-align: center;
 }
 footer {
-    height: 200px;
+    height: 110px;
     background-color: #444;
     color: #fff;
     text-align: center;
-    padding-top: 9%;
+    padding-top: 3%;
     border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 footer div a {
     text-decoration: none;
@@ -264,6 +278,7 @@ footer div a {
 .contact {
     background-color: #222; 
     color: aliceblue;
+    padding-bottom: 5px;
 }
 
 .btn-sm {

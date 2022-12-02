@@ -23,6 +23,28 @@
     
 <div class="container">
 
+  <div class="sheader">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+           
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#competences">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#a_propos">A propos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portofolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                </ul>
+          </nav>
+    </header>
+    </div>
   <div class="accueil"> 
     <div class="portrait">
     
@@ -35,17 +57,17 @@
     
 <div class="voletdroiteHome">
 
-  <div class="sheader">
+  <!-- <div class="sheader">
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark ">
+        <nav class="navbar navbar-expand-lg bg-dark">
            
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#competences">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
+                    <a class="nav-link" href="#a_propos">A propos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Portofolio</a>
@@ -56,31 +78,34 @@
                 </ul>
           </nav>
     </header>
-    </div>
+    </div> -->
 
     <div class="sujet">
         <section>
-          <p>Compétences</p>
+          <a href="#competences">Compétences</a>
+         
             
         </section>
         <section>
-            <p>Expériences</p> 
+          <a href="#a_propos">Expériences</a>
+             
         </section>
         <section>
-          <p>Formations</p>
+          <a href="#metier">Formations</a>
+          
             
         </section>
     </div>
 
-    <div class="contat_accueil">
-        <button class="btn btn-default btn-sm">Contactez-moi</button>
+    <div class="contact_accueil">
+        <button class="btn btn-default btn-sm" id="contactAccueil">Contactez-moi</button>
     </div>
 
 </div>
 </div>
 
 
-<div class="global_experience">
+<div class="global_experience" id="competences">
   
   <div class="text_technos">
     <p>
@@ -97,7 +122,7 @@
     </div>
 
     <div class="images">
-      <img src="./images/mysql.png" alt="">
+      <img src="./images/database_mysql.png" alt="">
     </div>
 
     <div class="images">
@@ -105,7 +130,7 @@
     </div>
 
     <div class="images">
-        <img src="./images/jquerry.png" alt="">
+        <img src="./images/jquery.png" alt="">
     </div>
 
     <div class="images">
@@ -113,7 +138,7 @@
     </div>
 
     <div class="images">
-        <img src="./images/bootstrap.png" alt="">
+        <img src="./images/bootstrap2.png" alt="">
     </div>
 
     <div class="images">
@@ -121,11 +146,11 @@
     </div>
 
     <div class="images">
-      <img src="./images/java.png" alt="">
+      <img src="./images/java2.png" alt="">
     </div>
 
     <div class="images">
-        <img src="./images/The-Scrum-Values.webp" alt="">
+        <img src="./images/agile.PNG" alt="">
     </div>
 
     <div class="images">
@@ -134,7 +159,7 @@
 
   </div>
 </div>
-<div class="apropos">
+<div class="apropos" id="a_propos">
 
   <!-- partie gauche -->
   <div class="gauche_apropos">
@@ -207,7 +232,7 @@
 </div>
 <div class="telecharger">
     
-      <button>Telecharger mon CV</button>
+      <button class="btn btn-default btn-sm">Telecharger mon CV</button>
     
   </div>
 
@@ -216,7 +241,7 @@
 </div>
  <!-- Fin du volet a propos -->
  <!-- debut volet dev comm -->
- <div class="metier">
+ <div class="metier" id="metier">
     <div class="titre_metier">
       <section>
         <h2> Développeur Web Full Stack</h2>
