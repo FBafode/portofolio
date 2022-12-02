@@ -1,182 +1,22 @@
-*{
-    margin: 0;
-}
-.container {
-    width: 80%;
-    margin: auto;
-}
-.portrait {
-    background-image: url("../images/obama-gq-1215-03.webp");
-    background-size: cover;
-    position: relative;
+body {
+    background: #f5d9d5;
 }
 
-.accueil {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: red;
-
-}
-.voletdroiteHome {
-    background-color: black;
-    color: azure; 
-}
-.sheader header nav ul li a{
-    color: azure;
-  
-
-}
- 
-.text_portrait {
-  
-    border-top: 1px solid honeydew;
-    border-bottom: 1px solid honeydew;
-    width: 75%;
-    height: 16%;
-    margin: 0 0 6% 15%;
-    text-align: center;
-    position: absolute;
-    bottom: 5%;
-    padding-top: 5%;
-    color: aqua;
-}
-.portrait p {
-    
-   
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: rgb(243, 243, 243);
-    margin-left: 20%;
-}
-
-.sujet section {
-    border: 1px solid black;
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    margin:auto;
-    text-align: center;
-    padding-top: 28%;
-    background-color: #41464b;
-    color: honeydew;
-    font-size: 1.5em;
-    font-weight: 30px;
-}
-.portrait p:nth-child(2) {
-    text-align: center;
-    position: absolute;
-    bottom: 8%;
-    font-size: 4.5em;
-    /* margin: auto; */
-}
-.portrait p:nth-child(3) {
-    text-align: center;
-    position: absolute;
-    bottom: 1%;
-    font-size: 25px;
-}
-
-
-.sujet {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-evenly;
-    margin: 5%;
-    width: 94%;
-    height: 79%;
-} 
-
-/* sujet {
-    display: flex;
-    flex-direction: row-reverse;
-    align-content: flex-start;
+#navLinks { 
     justify-content: flex-end;
-    margin: 5%;
-    width: 94%;
-    height: 79%;
-    align-items: flex-start;
-    flex-wrap: wrap;
-} */
-
-/* .navbar-nav {
-
-    --bs-nav-link-padding-x: 0;
-    --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight: ;
-    --bs-nav-link-color: var(--bs-navbar-color);
-    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
-    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
-    display: flex;
-    /* flex-direction: column; 
-    padding-left: 0;
-    
-    list-style: none;
-} */
-
-/* .navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: end;
-} */
-/* .navbar-nav me-auto mn-2 mb-2-lg-0 {
-display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: normal;
-  align-content: normal;
-} 
-
-.navbar-nav me-auto mn-2 mb-2-lg-0:nth-child {
-display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-} */
-
-.navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    /* align-items: flex-end; */
 }
 
-.global_experience {
-
-
-    
-    
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;  */
+#home, #about, #portfolio, #testimonials {
+    margin: 2em 1em 0 1em;
+    font-size: large;
 }
 
-
-
-.text_technos {
-    
-    width: 80%;
-    height: 10%;
-    margin: o auto;
-}
-.technos {
-   display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 5px;
-grid-row-gap: 5px; 
-
-    width: 15%;
-} 
-
-.images img {
-    width: 100%;
-    height: 70%;
-    overflow: hidden;
+#brand_name {
+    font-size: 1.75em;
+    font-weight: 500;
+    padding-top: 4vh;
 }
 
-
+#bavbar-button {
+    align-items: flex-end;
+}
